@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --color-brand-50: oklch(0.97 0.02 250);
+  --color-brand-100: oklch(0.94 0.04 258);
+  --color-brand-600: oklch(0.55 0.19 262);
+  --color-brand-700: oklch(0.48 0.18 262);
+}
+
+@layer base {
+  body {
+    @apply bg-neutral-50 text-neutral-900 antialiased;
+  }
+}
